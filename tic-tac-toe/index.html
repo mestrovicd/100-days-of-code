@@ -31,11 +31,16 @@
                 <form>
                     <div class="form-control">
                         <label for="playername">Enter player name:</label>
-                        <input type="text" name="playername" id="playername" />
+                        <input
+                            type="text"
+                            name="playername"
+                            id="playername"
+                            required />
                     </div>
+                    <p id="config-error"></p>
                     <div>
                         <button
-                            type="button"
+                            type="reset"
                             class="btn btn__alt"
                             id="cancel-config-btn">
                             Cancel
@@ -51,7 +56,10 @@
                             <h2>Player 1</h2>
                             <h3>PLAYER NAME</h3>
                             <p class="player-symbol">X</p>
-                            <button class="btn btn__alt" id="edit-p1">
+                            <button
+                                class="btn btn__alt"
+                                id="edit-p1"
+                                data-playerid="1">
                                 Edit
                             </button>
                         </div>
@@ -61,7 +69,10 @@
                             <h2>Player 2</h2>
                             <h3>PLAYER NAME</h3>
                             <p class="player-symbol">O</p>
-                            <button class="btn btn__alt" id="edit-p2">
+                            <button
+                                class="btn btn__alt"
+                                id="edit-p2"
+                                data-playerid="2">
                                 Edit
                             </button>
                         </div>
