@@ -6,7 +6,7 @@ body {
 }
 
 #header {
-    background-color: rgb(140, 0, 255);
+    background-color: rgb(105, 39, 130);
     color: white;
     padding: 1.5rem 5%;
     text-align: center;
@@ -15,7 +15,7 @@ body {
 .btn {
     font: inherit;
     padding: 0.5rem 1.5rem;
-    background-color: rgb(140, 0, 255);
+    background-color: rgb(105, 39, 130);
     border: rgb(140, 0, 255);
     color: white;
     border-radius: 4px;
@@ -25,7 +25,7 @@ body {
 .btn__alt {
     background-color: transparent;
     border-color: transparent;
-    color: rgb(140, 0, 255);
+    color: rgb(105, 39, 130);
 }
 
 .btn:hover {
